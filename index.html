@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Anthony Paul Joseph</title>
+<meta name="description" content="Anthony Paul Joseph's personal website: about me, my practice projects and how to get in touch.">
+<link rel="canonical" href="https://anthonypauljoseph.com/">
+<meta property="og:title" content="Anthony Paul Joseph">
+<meta property="og:description" content="Personal website of Anthony Paul Joseph.">
+<meta property="og:url" content="https://anthonypauljoseph.com/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Literata:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #eef2f1;
+    --ink: #1b2a2f;
+    --muted: #55656a;
+    --line: #c9d5d6;
+    --accent: #2b6a8a;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #131b1e; --ink: #e6eeee; --muted: #9fb0b3; --line: #2b3a3e; --accent: #7fc0df; }
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "Literata", Georgia, serif;
+    font-size: 1.1rem;
+    line-height: 1.7;
+  }
+  a { color: var(--accent); text-underline-offset: 3px; }
+  a:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+  .wrap { max-width: 44rem; margin: 0 auto; padding: 0 1.5rem; }
+  header.top { padding: 1.5rem 0; }
+  nav { display: flex; gap: 1.5rem; font-family: "Bricolage Grotesque", Arial, sans-serif; font-weight: 600; }
+  nav a { text-decoration: none; color: var(--ink); }
+  nav a:hover { color: var(--accent); }
+  .hero { padding: 5rem 0 4rem; border-bottom: 1px solid var(--line); }
+  h1 {
+    font-family: "Bricolage Grotesque", Arial, sans-serif;
+    font-weight: 800;
+    font-size: clamp(3.2rem, 14vw, 7rem);
+    line-height: 0.95;
+    letter-spacing: -0.03em;
+    margin: 0 0 1.5rem;
+  }
+  .hero p { font-size: 1.3rem; color: var(--muted); max-width: 32rem; margin: 0; }
+  section { padding: 3.5rem 0; border-bottom: 1px solid var(--line); }
+  h2 { font-family: "Bricolage Grotesque", Arial, sans-serif; font-size: 1.8rem; margin: 0 0 1rem; }
+  .project { padding: 1rem 0; border-top: 1px solid var(--line); }
+  .project:first-of-type { border-top: 0; padding-top: 0; }
+  .project h3 { font-family: "Bricolage Grotesque", Arial, sans-serif; margin: 0; font-size: 1.2rem; }
+  .project p { margin: 0.25rem 0 0; color: var(--muted); }
+  footer { padding: 2.5rem 0 4rem; color: var(--muted); font-size: 0.95rem; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <nav aria-label="Main">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="hero">
+      <h1>Anthony Paul Joseph</h1>
+      <!-- EDIT: change this line to describe you -->
+      <p>I'm learning to build things for the web and sharing what I make along the way.</p>
+    </div>
+
+    <section id="about">
+      <h2>About</h2>
+      <!-- EDIT: write 2-4 sentences about yourself: where you are, what you study or do, what you want to learn -->
+      <p>Hi, I'm Anthony Paul Joseph. This site is where I practice building web pages and keep track of what I learn. I'm based in India and interested in technology, design and learning new skills.</p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <!-- EDIT: replace these with your own projects. Copy one block for each new project. -->
+      <div class="project">
+        <h3>This website</h3>
+        <p>My first site, built with HTML and CSS and hosted for free.</p>
+      </div>
+      <div class="project">
+        <h3>Your next project</h3>
+        <p>Add a short description of something you built or want to build.</p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <!-- EDIT: put your real email or profile links -->
+      <p>The best way to reach me is by email: <a href="mailto:you@example.com">you@example.com</a></p>
+      <p>You can also find me on <a href="https://www.linkedin.com/">LinkedIn</a> and <a href="https://github.com/">GitHub</a>.</p>
+    </section>
+  </main>
+
+  <footer>© 2026 Anthony Paul Joseph</footer>
+</div>
+</body>
+</html>
